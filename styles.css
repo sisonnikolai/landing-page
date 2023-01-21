@@ -49,7 +49,6 @@ button {
     gap: 20px;
 }
 
-
 .header-info {
     display: flex;
     justify-content: space-between;
@@ -75,6 +74,10 @@ button {
     margin-bottom: 20px;
 }
 
+.header-button {
+    border-color: #3882F6;
+}
+
 .right {
 }
 
@@ -87,15 +90,37 @@ button {
     border-radius: 10px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 8em;
+}
+
 .info-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-.info-img {
-    height: 100px;
-    width: 100px;
+.info-content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info-item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-item img {
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
 }
 
 .quote {
