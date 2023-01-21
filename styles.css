@@ -74,8 +74,8 @@ button {
     margin-bottom: 20px;
 }
 
-.header-button {
-    border-color: #3882F6;
+.left button {
+    border-style: none;
 }
 
 .right {
@@ -127,16 +127,44 @@ button {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
+    padding: 3em 5em;
 }
 
 .quote p {
     font-style: italic;
+    text-justify: auto;
+}
+
+.quote div {
+    text-align: right;
+    font-weight: 900;
+}
+
+.signup {
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal {
+    padding: 2em;
+    color: #F9FAF8;
     background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.modal-title {
+    font-weight: 900;
+}
+
+.modal button {
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 .footer {
     color: #F9FAF8;
+    text-align: center;
+    padding: 2em;
 }
